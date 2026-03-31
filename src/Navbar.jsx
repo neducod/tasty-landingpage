@@ -3,6 +3,7 @@ import './App.css'
 
 import { FaBars } from 'react-icons/fa'; 
 
+
 function Navbar(){
     return(
         <>
