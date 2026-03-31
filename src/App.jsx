@@ -16,6 +16,7 @@ import Header from './Header'
 import HeroSection from './Hero'
 import Navbar from './Navbar'
 
+import { FaBars } from 'react-icons/fa'; 
 function App() {
   // const [count, setCount] = useState(0)
 

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
+import { FaBars } from 'react-icons/fa'; 
 
 function Navbar(){
     return(
@@ -53,17 +54,16 @@ function Navbar(){
                     </div>
                 </div>
             </nav>
-            <nav className='bg-gray-300 p-6 flex justify-center items-center sm:hidden gap-20'>
+            <nav className='bg-gray-200 p-6 flex justify-center items-center sm:hidden gap-10'>
                 {/* FOR SMALLER SCREEN SIZES */}
                 <div>
                     <h1 className='text-red-600 font-semibold text-xl'>Tasty <span className='text-black font-semibold text-xl'>FOODS</span></h1>
                 </div>
-                <div>
+                <div className='flex flex-row'>
                     <button className='bg-red-600 text-center w-30 rounded-2xl h-12 relative text-white text-sm font-semibold' type="button">Order Now</button>
                 </div>
-                <div>
-                    {/* HAMBURGER ICON */}
-                </div>
+                <FaBars className='w-28 h-8' />
+
             </nav>
         
         </>
