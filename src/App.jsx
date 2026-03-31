@@ -6,13 +6,17 @@ import './App.css'
 
 import FooterSection from './Footer'
 import FoodNews from './Foodnews'
+import TestimonialSec from './Testimonial'
+import FoodGallery from './Foodgallery'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
+      <TestimonialSec/>
       <FoodNews/>
+      <FoodGallery/>
       <FooterSection/>
 
 

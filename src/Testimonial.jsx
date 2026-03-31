@@ -68,7 +68,6 @@ function TestimonialSec (){
         </div>
       </div>
 
-      {/* Navigation Arrows (Left and Right) */}
       <button 
         className="absolute top-1/2 left-0 -translate-y-1/2 cursor-pointer p-4 text-white font-bold text-2xl border-none bg-black/30 rounded-r-md transition-all duration-300 hover:bg-black/70 z-20"
         onClick={prevSlide}
@@ -81,7 +80,6 @@ function TestimonialSec (){
       >
         &#10095;
       </button>
-                {/* Navigation Dots/Indicators */}
             <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
                 {slides.map((_, index) => (
                 <span
