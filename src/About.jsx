@@ -1,21 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 
+import AboutImage from './assets/hamburger-french-fries-cheeseburger-chicken-sandwich-veggie-burger-french-fries-cc8702cccfa196ec13aaa2f54cec5173.png'
+
 function AboutSection (){
     return(
         <>
-        <div className='p-6'>
+        <div className='flex sm:hidden lg:hidden flex-col gap-6 p-6 justify-center items-center    relative w-ful mb-50'>
             {/* ?\FOR SMALLER SCREEN */}
-            <div>
-                {/* DIV FOR IMAGE */}
-                <img src="" alt="" />
-                <div>background color</div>
-            </div>
-            <div>
-                <h2>ABout Tasty Foods</h2>
-                <p>Explicabo tempore magni a aliquam necessitatibus molestias odio facere. Ipsa, unde animi adipisci, incidunt nam officiis vitae recusandae dolore nisi necessitatibus exercitationem.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-                <div className='flex flex-col'>
+            <div className='flex flex-col gap-4 font-bold  absolute top-30 left-0 w-full z-10 text-white text-center pt-5'>
+                <h2 className='text-3xl'>About Tasty <span className='text-red-600 font-bold italic underline decoration-wavy decoration-orange-400'>Foods</span></h2>
+                <div className='flex flex-col gap-4 pb-2'>
+                    <p className='text-black'>Explicabo tempore magni a aliquam necessitatibus molestias odio facere. Ipsa, unde animi adipisci, incidunt nam officiis vitae recusandae dolore nisi necessitatibus exercitationem.</p>
+                    <p className='text-black'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                </div>
+                <div className='flex flex-col justify-center pl-8 text-black'>
                     <div className='flex flex-row items-center'>
                         <div>1</div>
                         <p>Delicious and healthy foods</p>
@@ -29,11 +28,18 @@ function AboutSection (){
                         <p>Made with fresh ingredients</p>
                     </div>
                 </div>
-                <div className='flex flex-row'>
-                    <button>Order Now</button>
-                    <button>Read More</button>
+                <div className='flex flex-row justify-center gap-4'>
+                    <button className='bg-yellow-400 text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold'>Order Now</button>
+                    <button className='bg-white text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold border-black border-2'>Read More</button>
                 </div>
+                
             </div>
+
+            <div className='blur-[2px]'>
+                <img src={AboutImage} alt="" className='w-full h-auto object-cover z-10' />
+                {/* <div>background color</div> */}
+            </div>
+
         </div>
         <div className='hidden sm:block'>
             {/* LOR LARGER SCREEN */}
