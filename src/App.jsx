@@ -17,6 +17,15 @@ import HeroSection from './Hero'
 import Navbar from './Navbar'
 
 import { FaBars } from 'react-icons/fa'; 
+import { PiHamburgerBold } from "react-icons/pi";
+import { GiFrenchFries } from "react-icons/gi";
+import { GiFullPizza } from "react-icons/gi";
+import { GiSlicedBread } from "react-icons/gi";
+import { RiDrinks2Fill } from "react-icons/ri";
+import { LuSandwich } from "react-icons/lu";
+
+
+
 function App() {
   // const [count, setCount] = useState(0)
 
