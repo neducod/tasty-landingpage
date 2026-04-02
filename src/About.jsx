@@ -51,7 +51,7 @@ function AboutSection (){
             {/* LOR LARGER SCREEN */}
             <div>
                 {/* DIV FOR IMAGE */}
-                <img src="" alt="" />
+                {/* <img src="" alt="" /> */}
                 <div>background color</div>
             </div>
             <div>

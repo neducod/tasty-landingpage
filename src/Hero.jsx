@@ -17,7 +17,7 @@ function HeroSection(){
                     </div>
                 </div>
                 <div className='blur-[2px]'>
-                    <img src={HeroImage} alt="" className='w-full h-auto object-cover z-10' />
+                    <img src={HeroImage} alt="hero-image" className='w-full h-auto object-cover z-10' />
                 </div>
             </section>
 
@@ -31,7 +31,7 @@ function HeroSection(){
                     </div>
                 </div>
                 <div>
-                    <img src="" alt="" />
+                    <img src={HeroImage} alt="hero-image" />   
                 </div>
             </section>
         </>

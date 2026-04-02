@@ -44,27 +44,27 @@ function Header(){
                 {/* larger screen */}
                 <div>
                     <div>
-                        <img src="" alt="" />
+                        {/* <img src="" alt="" /> */}
                         <p></p>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        {/* <img src="" alt="" /> */}
                         <p></p>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        {/* <img src="" alt="" /> */}
                         <p></p>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        {/* <img src="" alt="" /> */}
                         <p></p>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        {/* <img src="" alt="" /> */}
                         <p></p>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        {/* <img src="" alt="" /> */}
                         <p></p>
                     </div>
                 </div>

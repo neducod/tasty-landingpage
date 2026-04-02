@@ -4,7 +4,7 @@ import './App.css'
 function FooterSection (){
     return(
         <>
-        <footer className='flex gap-6 p-6 flex-col'>
+        <footer className='flex gap-6 p-6 flex-col bg-gray-300'>
             <div className='flex flex-col sm:justify-start gap-4 p-2'>
                 <div>
                     <h6> <span>Tasty</span> Foods</h6>
