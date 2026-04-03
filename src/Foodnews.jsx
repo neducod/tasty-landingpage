@@ -15,8 +15,8 @@ function FoodNews (){
                 <p className='text-center p-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus odio dignissimos quae dicta quos porro autem, pariatur error nesciunt consectetur,</p>
             </div>
 
-            <div className='flex justify-center items-center flex-col gap-10'>
-                <div className='bg-white border-black border-2 rounded-2xl p-6'>
+            <div className='flex justify-center items-center flex-col gap-12'>
+                <div className='bg-white border-black border-2 rounded-2xl p-6 shadow-2xl'>
                     <p>Image</p>
                     <div className='flex flex-col gap-2'>
                         <h4>Lorem ipsum dolor sit amet,?</h4>
@@ -24,7 +24,7 @@ function FoodNews (){
                         <a href="#" className='p-2 text-red-600 underline font-bold text-sx'>Read More</a>
                     </div>
                 </div>
-                <div className='bg-white border-black border-2  rounded-2xl p-6'>
+                <div className='bg-white border-black border-2  rounded-2xl p-6 shadow-2xl'>
                     <p>Image</p>
                     <div className='flex flex-col gap-2'>
                         <h4>Lorem ipsum dolor sit amet,?</h4>
