@@ -4,8 +4,8 @@ import './App.css'
 function FooterSection (){
     return(
         <>
-        <footer className='flex gap-6 p-6 flex-col bg-gray-300'>
-            <div className='flex flex-col sm:justify-start gap-4 p-2'>
+        <footer className='flex gap-6 sm:gap-12 p-6 sm:p-10 flex-col bg-gray-300'>
+            <div className='flex flex-col sm:flex-row sm:gap-60 sm:items-center sm:justify-center gap-4 p-2'>
                 <div>
                     <h6 className='text-4xl font-bold '> <span className='text-red-600 font-bold italic underline decoration-wavy decoration-orange-300'>Tasty <br /> </span> Foods</h6>
                 </div>
@@ -13,15 +13,15 @@ function FooterSection (){
                     <p className='text-xl font-bold'>Subscription News</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div className='flex flex-row justify-center items-center'>
+                <div className='flex flex-row sm:flex-row-reverse justify-center items-center sm:gap-8'>
                     <input type="search" name="" id="" className='text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-blue-300 hover:shadow-lg hover:border-blue-300 bg-gray-100' placeholder="Enter text here"/>
-                    <button className='pl-4 pt-2 pb-2 pr-4 rounded-3xl bg-red-600 text-black font-bold'>Subscribe</button>
+                    <button className='pl-4 pt-2 pb-2 pr-4 rounded-3xl bg-red-600 sm:bg-black text-black sm:text-white font-bold'>Subscribe</button>
                 </div>
             </div>
             <hr />
-            <div className='flex flex-col gap-8'>
+            <div className='flex flex-col sm:flex-row gap-8'>
                 <div className='flex flex-col gap-2'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates q.</p>
+                    <p className='sm:w-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates q.</p>
                     <h6 className='text-xl font-bold'>Book a ride</h6>
                     <p className='text-red-600 font-bold'>+ 123 456 789</p>
                     <h6 className='text-xl font-bold'>Opening hours</h6>
@@ -76,12 +76,12 @@ function FooterSection (){
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col gap-6'>
+            <div className='flex flex-col sm:flex-row sm:justify-evenly sm:gap-90 gap-6 sm:pt-10'>
                 <div>
-                    <p className='text-xl'>Copyrights @ 2026. All rights reserved</p>
+                    <p className='text-xl sm:text-sm'>Copyrights @ 2026. All rights reserved</p>
                 </div>
                 <div>
-                    <ul className='flex gap-2 flex-col'>
+                    <ul className='flex gap-2 flex-col sm:flex-row sm:gap-10'>
                         <li>Privacy Policy</li>
                         <li>Terms of use</li>
                     </ul>

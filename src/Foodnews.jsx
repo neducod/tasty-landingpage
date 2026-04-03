@@ -12,10 +12,11 @@ function FoodNews (){
         <section className='flex justify-center items-center flex-col p-6 gap-6 mb-10 mt-10'>
             <div className='flex justify-center items-center flex-col'>
                 <h2 className='font-bold text-3xl text-center'>Our Lastest Food <span className='text-red-500 font-bold italic underline decoration-wavy decoration-orange-300 pt-5 pb-5'>News</span></h2>
-                <p className='text-center p-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus odio dignissimos quae dicta quos porro autem, pariatur error nesciunt consectetur,</p>
+                <p className='text-center p-4 sm:hidden'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus odio dignissimos quae dicta quos porro autem, pariatur error nesciunt consectetur,</p>
+                <p className='hidden sm:block text-center p-4 w-4xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel facere magnam veniam nesciunt saepe odit sit, cum laboriosam debitis, iste culpa quo? Sunt, minima sed consequuntur nobis impedit deserunt sequi.</p>
             </div>
 
-            <div className='flex justify-center items-center flex-col gap-12'>
+            <div className='flex justify-center items-center flex-col sm:flex-row sm:p-18 gap-12'>
                 <div className='bg-white border-black border-2 rounded-2xl p-6 shadow-2xl'>
                     <p>Image</p>
                     <div className='flex flex-col gap-2'>
