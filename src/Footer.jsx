@@ -7,10 +7,10 @@ function FooterSection (){
         <footer className='flex gap-6 p-6 flex-col bg-gray-300'>
             <div className='flex flex-col sm:justify-start gap-4 p-2'>
                 <div>
-                    <h6> <span>Tasty</span> Foods</h6>
+                    <h6 className='text-4xl font-bold '> <span className='text-red-600 font-bold italic underline decoration-wavy decoration-orange-300'>Tasty <br /> </span> Foods</h6>
                 </div>
                 <div>
-                    <p>Subscription News</p>
+                    <p className='text-xl font-bold'>Subscription News</p>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className='flex flex-row justify-center items-center'>
@@ -22,14 +22,14 @@ function FooterSection (){
             <div className='flex flex-col gap-8'>
                 <div className='flex flex-col gap-2'>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates q.</p>
-                    <h6 className='text-xl'>Book a ride</h6>
-                    <p>+ 123 456 789</p>
-                    <h6 className='text-xl'>Opening hours</h6>
-                    <p>4:00 AM - 12:00 PM</p>
+                    <h6 className='text-xl font-bold'>Book a ride</h6>
+                    <p className='text-red-600 font-bold'>+ 123 456 789</p>
+                    <h6 className='text-xl font-bold'>Opening hours</h6>
+                    <p className='text-red-600 font-bold'>4:00 AM - 12:00 PM</p>
                 </div>
                 <div className='flex flex-col'>
                     <ul className='flex flex-col'>
-                        <h6 className='text-xl'>Quick Links</h6>
+                        <h6 className='text-xl font-bold'>Quick Links</h6>
                         <li>About us</li>
                         <li>Menu</li>
                         <li>Testimonial</li>
@@ -38,7 +38,7 @@ function FooterSection (){
                     </ul>
                 </div>
                 <div className='flex flex-col'>
-                    <h6 className='text-xl'>Delivery Branches</h6>
+                    <h6 className='text-xl font-bold'>Delivery Branches</h6>
                     <ul className='flex flex-col'>
                         <li>Nigeria</li>
                         <li>Argentina</li>
@@ -50,20 +50,26 @@ function FooterSection (){
                 </div>
                 <div className='flex flex-col gap-6'>
                     <div className='flex gap-4 items-center'>
-                        <div>1</div>
+                        <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
+                            <p>1</p>
+                        </div>
                         <div>
                             <p className='text-xl'>Address</p>
                             <p>Your number one secret location</p>
                         </div>
                     </div>
                     <div className='flex gap-4 items-center'>
-                        <div>2</div>
-                        <div>
+                        <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
+                            <p>2</p>
+                        </div>
+                        <div className=''>
                             <p>12343232</p>
                         </div>
                     </div>
                     <div className='flex gap-4 items-center'>
-                        <div>3</div>
+                        <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
+                            <p>3</p>
+                        </div>
                         <div>
                             <p>yoursecret@gmail.com</p>
                         </div>
@@ -81,6 +87,7 @@ function FooterSection (){
                     </ul>
                 </div>
             </div>
+            <hr />
             <div className='flex justify-center items-center'>
                 <p>Designed and built by <a href="">Josephine 🍒</a></p>
             </div>
