@@ -21,17 +21,17 @@ function HeroSection(){
                 </div>
             </section>
 
-            <section className='hidden sm:block'>
-            <div>
-                    <h1>Welcome to our Tasty <span>Foods</span></h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima laborum veritatis atque placeat ducimus. Nulla incidunt, est perferendis quidem eius fugit facil</p>
-                    <div>
-                        <button>Order Now</button>
-                        <button>Book a Table</button>
+            <section className='hidden sm:flex sm:flex-row sm:p-2 sm:justify-center sm:items-center'>
+                <div className='sm:flex sm:flex-col sm:gap-4'>
+                    <h1 className=' text-left text-3xl font-bold'>Welcome To <br /> Our Tasty <span className='text-red-600 font-bold italic underline decoration-wavy decoration-orange-300'>Foods</span></h1>
+                    <p className='w-140'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima laborum veritatis atque placeat ducimus. Nulla incidunt, est perferendis quidem eius fugit facil Lorem ipsum dolor sit amet consectetur </p>
+                    <div className='flex flex-row  gap-4'>
+                        <button className='bg-white text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold border-black border-2'>Order Now</button>
+                        <button className='bg-red-600 text-center w-30 rounded-2xl h-12 relative text-white text-sm font-semibold'>Book a Table</button>
                     </div>
                 </div>
                 <div>
-                    <img src={HeroImage} alt="hero-image" />   
+                    <img src={HeroImage} alt="hero-image" className='w-140' />   
                 </div>
             </section>
         </>

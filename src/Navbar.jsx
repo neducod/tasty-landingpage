@@ -7,7 +7,7 @@ import { FaBars } from 'react-icons/fa';
 function Navbar(){
     return(
         <>
-            <nav className='hidden sm:flex sm:gap-6 sm:flex-col'>
+            <nav className='hidden  sm:gap-6 sm:flex-col'>
                 {/* FOR LARGER SCREEN SIZES */}
                 <div className='sm:flex gap-10'>
                     <div>
