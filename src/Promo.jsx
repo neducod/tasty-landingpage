@@ -4,7 +4,7 @@ import './App.css'
 function PromoSection(){
     return(
         <>
-            <section className='flex flex-col gap-10 p-6'>
+            <section className='flex flex-col sm:flex-row gap-10 sm:gap-0 sm:justify-center sm:items-center p-6 sm:p-26'>
                 {/* SMALLER SCREENS */}
                     <div className='bg-red-500'>
                         <div className='p-4'>
@@ -34,7 +34,8 @@ function PromoSection(){
                         {/* <img src="" alt="" /> */}
                     </div>
             </section>
-            <section className='hidden sm:block'>
+
+            <section className='hidden'>
                 {/* LARGER SCREEN */}
                 <div className='flex flex-row '>
                     <div>
