@@ -11,7 +11,7 @@ import { LuSandwich } from "react-icons/lu";
 function Header(){
     return(
         <>
-            <section className='bg-gray-100 flex flex-row gap-4 justify-center items-center relative max-w-6xl mx-auto px-4 py-8'>
+            <section className='bg-gray-100 flex flex-row gap-4 justify-center items-center relative max-w-6xl mx-auto px-4 py-8 sm:hidden'>
                 {/* aSMALLER SCREEN */}
                 <div className='flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory scrollbar-hide pb-6'>
                     <div className='overflow-hidden rounded-2xl bg-white shadow-md transition-transform duration-300 hover:scale-[1.02]' >
@@ -40,32 +40,32 @@ function Header(){
                     </div>
                 </div>
             </section>
-            <section className='hidden'>
+            <section className='hidden sm:block bg-gray-100 flex flex-row gap-4 justify-center items-center relative max-w-6xl mx-auto px-4 py-8'>
                 {/* larger screen */}
-                <div>
+                <div className='sm:flex sm:gap-10 sm:justify-center'>
                     <div>
-                        {/* <img src="" alt="" /> */}
-                        <p></p>
+                        <PiHamburgerBold />
+                        <p>Hamburger</p>
                     </div>
                     <div>
-                        {/* <img src="" alt="" /> */}
-                        <p></p>
+                        <GiFrenchFries />
+                        <p>French fries</p>
                     </div>
                     <div>
-                        {/* <img src="" alt="" /> */}
-                        <p></p>
+                        <GiFullPizza />
+                        <p>Pizza</p>
                     </div>
                     <div>
-                        {/* <img src="" alt="" /> */}
-                        <p></p>
+                        <GiSlicedBread />
+                        <p>Bread</p>
                     </div>
                     <div>
-                        {/* <img src="" alt="" /> */}
-                        <p></p>
+                        <RiDrinks2Fill />
+                        <p>Drinks</p>
                     </div>
                     <div>
-                        {/* <img src="" alt="" /> */}
-                        <p></p>
+                        <LuSandwich />
+                        <p>Sandwish</p>
                     </div>
                 </div>
             </section>
