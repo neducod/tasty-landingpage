@@ -27,6 +27,7 @@ import { GiFullPizza } from "react-icons/gi";
 import { GiSlicedBread } from "react-icons/gi";
 import { RiDrinks2Fill } from "react-icons/ri";
 import { LuSandwich } from "react-icons/lu";
+import { CiPhone } from "react-icons/ci";
 
 
 

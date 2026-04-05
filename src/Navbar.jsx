@@ -2,14 +2,15 @@ import { useState } from 'react'
 import './App.css'
 
 import { FaBars } from 'react-icons/fa'; 
+import { CiPhone } from "react-icons/ci";
 
 
 function Navbar(){
     return(
         <>
-            <nav className='hidden  sm:gap-6 sm:flex-col'>
+            <nav className='hidden sm:flex sm:gap-4 sm:flex-col'>
                 {/* FOR LARGER SCREEN SIZES */}
-                <div className='sm:flex gap-10'>
+                <div className='sm:flex sm:flex-row sm:justify-center sm:items-center sm:p-2 sm:gap-80'>
                     <div>
                         <ul className='sm:flex sm:gap-2'>
                             <li>dhdhd</li>
@@ -27,12 +28,12 @@ function Navbar(){
                     </div>
                 </div>
                 <hr />
-                <div>
+                <div className='sm:flex sm:gap-8 sm:flex-row sm:justify-evenly sm:p-2'>
                     <div>
-                        <h1>Tasty <span>FOODS</span></h1>
+                        <h1 className='text-3xl font-bold'>Tasty  <br /><span className='text-red-500 italic underline decoration-wavy decoration-orange-300'>FOODS</span></h1>
                     </div>
                     <div>
-                        <ul>
+                        <ul className='sm:flex sm:flex-row sm:gap-6'>
                             <li>Home</li>
                             <li>Menu</li>
                             <li>Order Foods</li>
@@ -40,18 +41,21 @@ function Navbar(){
                             <li>Pages</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className='sm:flex sm:justify-center sm:items-center sm:gap-2'>
                         <div>
+                            <CiPhone/>
                             {/* Phone icon */}
                         </div>
-                        <h4>Send a message</h4>
-                        <p>123 456 789</p>
+                        <div>
+                            <h4>Send a message</h4>
+                            <p>123 456 789</p>
+                        </div>
                     </div>
                     <div>
                         {/* ICON PROBABLY FOR MOBILE APP */}
                     </div>
                     <div>
-                        <button>Order Now</button>
+                        <button className='bg-red-600 text-center w-30 rounded-2xl h-12 relative text-white text-sm font-semibold'>Order Now</button>
                     </div>
                 </div>
             </nav>
@@ -64,9 +68,7 @@ function Navbar(){
                     <button className='bg-red-600 text-center w-30 rounded-2xl h-12 relative text-white text-sm font-semibold' type="button">Order Now</button>
                 </div>
                 <FaBars className='w-28 h-8' />
-
             </nav>
-        
         </>
     )
 }
