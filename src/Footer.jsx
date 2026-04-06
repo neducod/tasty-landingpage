@@ -89,7 +89,7 @@ function FooterSection (){
             </div>
             <hr />
             <div className='flex justify-center items-center'>
-                <p>Designed and built by <a href="">Josephine 🍒</a></p>
+                <p>Designed and built by <a href="" className='sm:cursor-pointer'>Josephine 🍒</a></p>
             </div>
         </footer>
         </>

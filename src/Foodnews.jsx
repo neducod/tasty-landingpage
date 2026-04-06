@@ -22,7 +22,7 @@ function FoodNews (){
                     <div className='flex flex-col gap-2'>
                         <h4>Lorem ipsum dolor sit amet,?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis!</p>
-                        <a href="#" className='p-2 text-red-600 underline font-bold text-sx'>Read More</a>
+                        <a href="#" className='p-2 text-red-600 underline font-bold text-sx sm:cursor-pointer'>Read More</a>
                     </div>
                 </div>
                 <div className='bg-white border-black border-2  rounded-2xl p-6 shadow-2xl'>
@@ -30,7 +30,7 @@ function FoodNews (){
                     <div className='flex flex-col gap-2'>
                         <h4>Lorem ipsum dolor sit amet,?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis!</p>
-                        <a href="#" className='p-2 text-red-600 underline font-bold text-sx'>Read More</a>
+                        <a href="#" className='p-2 text-red-600 underline font-bold text-sx sm:cursor-pointer'>Read More</a>
                     </div>
                 </div>
                 <div className='bg-white border-black border-2  rounded-2xl p-6 shadow-2xl'>
@@ -38,7 +38,7 @@ function FoodNews (){
                     <div className='flex flex-col gap-2'>
                         <h4>Lorem ipsum dolor sit amet,?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis!</p>
-                        <a href="#" className='p-2 text-red-600 underline font-bold text-sx'>Read More</a>
+                        <a href="#" className='p-2 text-red-600 underline font-bold text-sx sm:cursor-pointer'>Read More</a>
                     </div>
                 </div>
             </div>

@@ -80,8 +80,8 @@ function AboutSection (){
                         </div>
                     </div>
                     <div className='sm:flex sm:flex-row sm:justify-start items-start text-left sm:gap-10'>
-                        <button className='bg-yellow-400 text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold'>Order Now</button>
-                        <button className='bg-white text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold border-black border-2'>Read More</button>
+                        <button className='bg-yellow-400 text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold cursor-pointer'>Order Now</button>
+                        <button className='bg-white text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold border-black border-2 cursor-pointer'>Read More</button>
                     </div>
                 </div>
             </div>

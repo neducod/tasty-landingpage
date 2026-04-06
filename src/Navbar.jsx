@@ -10,20 +10,24 @@ function Navbar(){
         <>
             <nav className='hidden sm:flex sm:gap-4 sm:flex-col'>
                 {/* FOR LARGER SCREEN SIZES */}
-                <div className='sm:flex sm:flex-row sm:justify-center sm:items-center sm:p-2 sm:gap-80'>
+                <div className='sm:flex sm:flex-row sm:justify-center sm:items-center sm:p-2 sm:gap-90 sm:pt-4'>
                     <div>
-                        <ul className='sm:flex sm:gap-2'>
-                            <li>dhdhd</li>
-                            <li>nhhd</li>
-                            <li>jdjd</li>
-                            <li>kdkd</li>
+                        <ul className='sm:flex sm:gap-8'>
+                            <div className='sm:flex'>
+                                <li>Phone:</li>
+                                <li className='cursor-pointer'>+124 456 789</li>
+                            </div>
+                            <div className='sm:flex'>
+                                <li>Email:</li>
+                                <li className='cursor-pointer'>yoursecret@gmail.com</li>
+                            </div>
                         </ul>
                     </div>
                     <div>
-                        <ul className='sm:flex sm:gap-2'>
-                            <li>About Us</li>
-                            <li>Contact Us</li>
-                            <li>Language</li>
+                        <ul className='sm:flex sm:gap-4'>
+                            <li className='cursor-pointer'>About Us</li>
+                            <li className='cursor-pointer'>Contact Us</li>
+                            <li className='cursor-pointer'>Language</li>
                         </ul>
                     </div>
                 </div>
@@ -55,7 +59,7 @@ function Navbar(){
                         {/* ICON PROBABLY FOR MOBILE APP */}
                     </div>
                     <div>
-                        <button className='bg-red-600 text-center w-30 rounded-2xl h-12 relative text-white text-sm font-semibold'>Order Now</button>
+                        <button className='bg-red-600 text-center w-30 rounded-2xl h-12 relative text-white text-sm font-semibold cursor-pointer'>Order Now</button>
                     </div>
                 </div>
             </nav>

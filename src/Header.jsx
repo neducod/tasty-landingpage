@@ -40,30 +40,30 @@ function Header(){
                     </div>
                 </div>
             </section>
-            <section className='hidden sm:block bg-gray-100 flex flex-row gap-4 justify-center items-center relative max-w-6xl mx-auto px-4 py-8'>
-                {/* larger screen */}
-                <div className='sm:flex sm:gap-10 sm:justify-center'>
-                    <div>
+            <section className='hidden bg-gray-100 sm:flex flex-row gap-4 justify-center items-center relative  px-4 py-8'>
+                {/* larger screen   max-w-6xl mx-auto*/}
+                <div className='sm:flex sm:gap-10 sm:justify-center sm:items-center'>
+                    <div className='sm:flex sm:justify-center sm:items-center sm:flex-col'>
                         <PiHamburgerBold />
-                        <p>Hamburger</p>
+                        <p className='text-center'>Hamburger</p>
                     </div>
-                    <div>
+                    <div className='sm:flex sm:justify-center sm:items-center sm:flex-col'>
                         <GiFrenchFries />
                         <p>French fries</p>
                     </div>
-                    <div>
+                    <div className='sm:flex sm:justify-center sm:items-center sm:flex-col'>
                         <GiFullPizza />
                         <p>Pizza</p>
                     </div>
-                    <div>
+                    <div className='sm:flex sm:justify-center sm:items-center sm:flex-col'>
                         <GiSlicedBread />
                         <p>Bread</p>
                     </div>
-                    <div>
+                    <div className='sm:flex sm:justify-center sm:items-center sm:flex-col'>
                         <RiDrinks2Fill />
                         <p>Drinks</p>
                     </div>
-                    <div>
+                    <div className='sm:flex sm:justify-center sm:items-center sm:flex-col'>
                         <LuSandwich />
                         <p>Sandwish</p>
                     </div>
