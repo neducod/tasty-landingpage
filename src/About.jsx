@@ -49,39 +49,41 @@ function AboutSection (){
         </div>
         <div className='hidden sm:block'>
             {/* FOR LARGER SCREEN */}
-            <div className='sm:flex sm:flex-row sm:gap-10 sm:p-18 sm:justify-center sm:items-center '>
+            <div className='sm:flex sm:flex-row sm:gap-16 sm:p-18 sm:justify-center sm:items-center '>
                 <div>
                     <img src={AboutImage} alt="" className='w-5xl'/>
                 </div>
                 <div className='sm:font-bold sm:w-full sm:flex sm:justify-center sm:items-center sm:gap-6 sm:flex-col'>
-                    <h2 className='sm:text-3xl'>About Tasty <span className='text-red-600 font-bold italic underline decoration-wavy decoration-orange-400'>Foods</span></h2>
-                    <div className='sm:flex sm:flex-col sm:gap-4 sm:pb-6'>
-                        <p className='text-black'>Explicabo tempore magni a aliquam necessitatibus molestias odio facere. Ipsa, unde animi adipisci, incidunt nam officiis vitae recusandae dolore nisi necessitatibus exercitationem.</p>
-                        <p className='text-black'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-                    </div>
-                    <div className='sm:flex sm:flex-col sm:gap-6 sm:justify-between text-black'>
-                        <div className='sm:flex sm:flex-row sm:items-center sm:gap-6'>
-                            <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
-                                <p>1</p>
-                            </div>
-                            <p>Delicious and healthy foods</p>
+                    <div className='sm:flex sm:flex-col sm:justify-evenly sm:items-start  sm:gap-2'>
+                        <h2 className='sm:text-3xl'>About Tasty <span className='text-red-600 font-bold italic underline decoration-wavy decoration-orange-400'>Foods</span></h2>
+                        <div className='sm:flex sm:flex-col sm:gap-4 sm:pb-6'>
+                            <p className='text-black'>Explicabo tempore magni a aliquam necessitatibus molestias odio facere. Ipsa, unde animi adipisci, incidunt nam officiis vitae recusandae dolore nisi necessitatibus exercitationem.</p>
+                            <p className='text-black'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
                         </div>
-                        <div className='sm:flex sm:flex-row sm:items-center sm:gap-6'>
-                            <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
-                                <p>2</p>
+                        <div className='sm:flex sm:flex-col sm:gap-2 sm:justify-between text-black'>
+                            <div className='sm:flex sm:flex-row sm:items-center sm:gap-4'>
+                                <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
+                                    <p>1</p>
+                                </div>
+                                <p>Delicious and healthy foods</p>
                             </div>
-                            <p>Best price and Offers</p>
-                        </div>
-                        <div className='flex flex-row items-center gap-6'>
-                            <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
-                                <p>3</p>
+                            <div className='sm:flex sm:flex-row sm:items-center sm:gap-4'>
+                                <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
+                                    <p>2</p>
+                                </div>
+                                <p>Best price and Offers</p>
                             </div>
-                            <p>Made with fresh ingredients</p>
+                            <div className='flex flex-row items-center gap-4'>
+                                <div className='bg-red-500 text-white w-8 h-8 rounded-t-full rounded-b-full rounded-l-full rounded-r-full text-center flex items-center justify-center'>
+                                    <p>3</p>
+                                </div>
+                                <p>Made with fresh ingredients</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className='sm:flex sm:flex-row sm:justify-start items-start text-left sm:gap-10'>
-                        <button className='bg-yellow-400 text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold cursor-pointer'>Order Now</button>
-                        <button className='bg-white text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold border-black border-2 cursor-pointer'>Read More</button>
+                        <div className='sm:flex sm:flex-row sm:justify-start items-start text-left sm:gap-10 sm:mt-4'>
+                            <button className='bg-yellow-400 text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold cursor-pointer'>Order Now</button>
+                            <button className='bg-white text-center w-30 rounded-2xl h-12 relative text-black text-sm font-semibold border-black border-2 cursor-pointer'>Read More</button>
+                        </div>
                     </div>
                 </div>
             </div>

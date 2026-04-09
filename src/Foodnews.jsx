@@ -17,26 +17,32 @@ function FoodNews (){
             </div>
 
             <div className='flex justify-center items-center flex-col sm:flex-row sm:p-18 gap-12'>
-                <div className='bg-white border-black border-2 rounded-2xl p-6 shadow-2xl'>
-                    <p>Image</p>
-                    <div className='flex flex-col gap-2'>
-                        <h4>Lorem ipsum dolor sit amet,?</h4>
+                <div className='bg-white border-black border-2 rounded-2xl p-6 sm:p-0 shadow-2xl'>
+                    <div className=''>
+                        <img src={ThirdImage} alt="" className='hidden sm:block sm:w-94 sm:h-50 sm:rounded-t-2xl'/>
+                    </div>
+                    <div className='flex flex-col gap-2 sm:p-6'>
+                        <h4 className='font-bold'>Lorem ipsum dolor sit amet,?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis!</p>
                         <a href="#" className='p-2 text-red-600 underline font-bold text-sx sm:cursor-pointer'>Read More</a>
                     </div>
                 </div>
-                <div className='bg-white border-black border-2  rounded-2xl p-6 shadow-2xl'>
-                    <p>Image</p>
+                <div className='bg-white border-black border-2  rounded-2xl p-6 sm:p-0 shadow-2xl'>
+                    <div className='sm:flex sm:justify-center sm:items-center'>
+                        <img src={FourthImage} alt="" className='hidden sm:block sm:w-94 sm:h-50 sm:rounded-t-2xl'/>
+                    </div>
                     <div className='flex flex-col gap-2'>
-                        <h4>Lorem ipsum dolor sit amet,?</h4>
+                        <h4 className='font-bold'>Lorem ipsum dolor sit amet,?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis!</p>
                         <a href="#" className='p-2 text-red-600 underline font-bold text-sx sm:cursor-pointer'>Read More</a>
                     </div>
                 </div>
-                <div className='bg-white border-black border-2  rounded-2xl p-6 shadow-2xl'>
-                    <p>Image</p>
+                <div className='bg-white border-black border-2  rounded-2xl p-6 sm:p-0 shadow-2xl'>
+                    <div className='sm:flex sm:justify-center sm:items-center'>
+                        <img src={FifthImage} alt="" className='hidden sm:block sm:w-94 sm:h-50 sm:rounded-t-2xl'/>
+                    </div>
                     <div className='flex flex-col gap-2'>
-                        <h4>Lorem ipsum dolor sit amet,?</h4>
+                        <h4 className='font-bold'>Lorem ipsum dolor sit amet,?</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, reiciendis!</p>
                         <a href="#" className='p-2 text-red-600 underline font-bold text-sx sm:cursor-pointer'>Read More</a>
                     </div>

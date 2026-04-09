@@ -15,7 +15,7 @@ function FooterSection (){
                 </div>
                 <div className='flex flex-row sm:flex-row-reverse justify-center items-center sm:gap-8'>
                     <input type="search" name="" id="" className='text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-blue-300 hover:shadow-lg hover:border-blue-300 bg-gray-100' placeholder="Enter text here"/>
-                    <button className='pl-4 pt-2 pb-2 pr-4 rounded-3xl bg-red-600 sm:bg-black text-black sm:text-white font-bold'>Subscribe</button>
+                    <button className='pl-4 pt-2 pb-2 pr-4 rounded-3xl bg-red-600 sm:bg-black text-black sm:text-white font-bold sm:cursor-pointer'>Subscribe</button>
                 </div>
             </div>
             <hr />
@@ -89,7 +89,7 @@ function FooterSection (){
             </div>
             <hr />
             <div className='flex justify-center items-center'>
-                <p>Designed and built by <a href="" className='sm:cursor-pointer'>Josephine 🍒</a></p>
+                <p>Designed and built by <a href="https://my-portfolio-jade-seven-80.vercel.app/" className='sm:cursor-pointer'>Josephine 🍒</a></p>
             </div>
         </footer>
         </>
