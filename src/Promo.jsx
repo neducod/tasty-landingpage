@@ -9,7 +9,7 @@ function PromoSection(){
         <>
             <section className='flex flex-col sm:flex-row gap-10 sm:gap-0 sm:justify-center sm:items-center p-6 sm:p-26'>
                 {/* SMALLER SCREENS */}
-                    <div className='bg-red-500 sm:flex sm:flex-row sm:gap-2'>
+                    {/* <div className='bg-red-500 sm:flex sm:flex-row sm:gap-2'>
                         <div className='p-4'>
                             <h2 className='text-white font-bold text-3xl italic'>Pasta</h2>
                             <p className='text-white text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing eliti</p>
@@ -17,7 +17,18 @@ function PromoSection(){
                             <p className='text-white p-2 font-bold'>$10.90</p>
                         </div>
                         <img src={PromothirdImg} alt=""  className='w-10'/>
-                    </div>
+                    </div> */}
+                    {/* <div className='bg-red-500 flex flex-col items-center sm:flex-row sm:items-start sm:gap-2'>
+                        <div className='p-4 text-center sm:text-left'>
+                            <h2 className='text-white font-bold text-3xl italic'>Pasta</h2>
+                            <p className='text-white text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing eliti</p>
+                            <p className='text-white text-sm'>Lorem, ipsum dolor sit amet consectetur</p>
+                            <p className='text-white p-2 font-bold'>$10.90</p>
+                        </div>
+                        <img src={PromothirdImg} alt="" className='w-20 mb-2 sm:mb-0'/>
+                    </div> */}
+
+
                     <div className='bg-blue-950 sm:flex sm:flex-row sm:gap-2'>
                         <div className='p-4'>
                             <h2 className='text-white font-bold text-3xl italic'>Burger</h2>
@@ -41,16 +52,16 @@ function PromoSection(){
             <section className='hidden'>
                 {/* LARGER SCREEN */}
                 <div className='flex flex-row '>
-                    <div>
-                        <div>
+                    <div className='relative w-full'>
+                        <div className='absolute top-30 left-0 w-full z-10'>
                             <h2>PAsta</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing eliti</p>
                             <p>Lorem, ipsum dolor sit amet consectetur</p>
                             <p>price</p>
                         </div>
-                        <img src={PromoImg} alt="" />
-                        {/* <img src="" alt="" /> */}
+                        <img src={PromoImg} alt=""  className='w-full h-auto object-cover z-10'/>
                     </div>
+
                     <div>
                         <div>
                             <h2>PAsta</h2>

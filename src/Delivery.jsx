@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-import MockImage from './assets/Screenshot 2026-04-01 at 18.03.42.png'
+import MockImage from './assets/packers-movers-relocation-packaging-and-labeling-logistics-delivery-man-2b7f92a571cb607728c072173534fcd2.png'
 
 function DeliverySection (){
     return(
@@ -14,7 +14,7 @@ function DeliverySection (){
             </div>
             <div>
                 {/* IMAGE OF A BIKE MAN */}
-                <img src={MockImage} alt="" />
+                <img src={MockImage} alt="" className='w-80'/>
             </div>
             <div className='flex justify-end items-end gap-4'>
                 <h3 className='text-3xl'>Order Online <br /> and Get Fast <br /> Delivery</h3>

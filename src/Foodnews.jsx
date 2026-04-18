@@ -27,6 +27,9 @@ function FoodNews (){
                         <a href="#" className='p-2 text-red-600 underline font-bold text-sx sm:cursor-pointer'>Read More</a>
                     </div>
                 </div>
+
+
+
                 <div className='bg-white border-black border-2  rounded-2xl p-6 sm:p-0 shadow-2xl'>
                     <div className='sm:flex sm:justify-center sm:items-center'>
                         <img src={FourthImage} alt="" className='hidden sm:block sm:w-94 sm:h-50 sm:rounded-t-2xl'/>
